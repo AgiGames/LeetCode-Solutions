@@ -31,4 +31,4 @@ class Solution(object):
                                                # (exclusion result already exists in dp set)
             dp = dp_next # new set is now the dp set
 
-        return target in dp # if target exists in dp then it returns true else false
+        return False # will return false if true was not returned anytime previously
